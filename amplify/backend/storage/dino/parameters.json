@@ -1,0 +1,5 @@
+{
+    "tableName": "saur",
+    "partitionKeyName": "possibleUser",
+    "partitionKeyType": "S"
+}

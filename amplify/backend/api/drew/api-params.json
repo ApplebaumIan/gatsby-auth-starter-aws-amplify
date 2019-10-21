@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "zach",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "drew",
+    "apiName": "drew",
+    "functionArns": [
+        {
+            "lambdaFunction": "zach"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "my-aws-project-ian-20191021193608-authRole",
+        "unAuthRoleName": "my-aws-project-ian-20191021193608-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "zach",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
